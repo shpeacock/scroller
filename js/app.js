@@ -1,17 +1,7 @@
 $(document).ready(function(){
     rollLoad();
-    wobble();
-    cartoonMe();
+
 })
-
-
-
-$(function() {
-  $('.shit').on('click', function(e) {
-    e.preventDefault();
-    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 1000, 'linear');
-  });
-});    
 
 function rollLoad(){
     $(".shp").textillate({
@@ -20,20 +10,26 @@ function rollLoad(){
    });
 }
 
-function wobble(){
-    $('.ripple').on('hover', function(){
-        $(this).textillate({in: {effect: 'wobble'}});
-    })
-}
+$(function() {
+  $('.shit').on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 1000, 'linear');
+  });
+});    
 
-function cartoonMe(){
-    $(".me").click(function(){
-        var get = $(this).attr('other');
-        var cat = $(this).attr('src');
-        $(this).attr('src',get);
-        $(this).attr('other',cat);
+$(function(){
+    $('li').hover(function(){
+        $(this).textillate({
+            in: {effect: 'flip', sequence: true},
+            out: {effect: 'pulse'}
+        })
     })
-}
+})
+
+
+
+
+
 
   
   
