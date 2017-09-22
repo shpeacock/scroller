@@ -39,7 +39,7 @@ section h1 {
 }
 .shit {
   position: absolute;
-  bottom: 140px;
+  bottom: 80px;
   left: 51%;
   z-index: 2;
   display: inline-block;
@@ -179,18 +179,41 @@ ul.ripple li{
     background: url(https://www.nxworld.net/example/css-scroll-down-button/bg03.jpg) center center / cover no-repeat;
     padding: 25px 25px 25px 25px;
     border-radius: 5px;
+    height: 125% ;
 }
 #portfolioh2{
   color: #fff;
   font : normal 300 54px/1 'Josefin Sans', sans-serif;
   text-align: center;
   white-space: nowrap;
+  top: 0;
 }
-#workContain{
-    background-color: blanchedalmond;
-    opacity: .6;
-    border-radius: 15px;
-    border-radius: 15px;
+
+#myCarousel{
+    left: 15%;
+}
+
+.proj-indicators{
+    left: 36%;
+}
+
+#main-indicators{
+    left:32%;
+    bottom:-10%;
+}
+
+#mean1{
+    background-image: url("images/mean1.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.proj_desc{
+    width: 600px;
+}
+
+carousel-indicators {
+    left: 36%;
 }
 
 .bigSec{
@@ -210,17 +233,22 @@ ul.ripple li{
 #section04 { background: url(https://www.nxworld.net/example/css-scroll-down-button/bg04.jpg) center center / cover no-repeat;}
 
 .proj_desc{
-    background-color: bisque;
-    margin: 1px;
+    background-color: ivory;
+    left: 12px;
 }
 
-.proj_desc h4{
+.proj_desc h3{
     text-align: center;
     border-bottom: 2px solid aqua;
 }
+.caurosel-inner img{
+    height: auto;
+}
 
-
-
+#mean1{
+    background-image:url("images/mean1.png");
+    background-size: cover;
+}
 #section05 { background: url(https://www.nxworld.net/example/css-scroll-down-button/bg05.jpg) center center / cover no-repeat;}
 
 #section05 h1{
