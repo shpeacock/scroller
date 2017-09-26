@@ -21,7 +21,6 @@ $(function(){
     $('li').hover(function(){
         $(this).textillate({
             in: {effect: 'flip', sequence: true},
-            out: {effect: 'pulse'}
         })
     })
 })

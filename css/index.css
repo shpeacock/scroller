@@ -202,13 +202,6 @@ ul.ripple li{
     bottom:-10%;
 }
 
-/*
-#mean1{
-    background-image: url("images/mean1.png");
-    background-repeat: no-repeat;
-    background-size:cover;
-}
-*/
 
 .proj_desc{
     width: 600px;
@@ -243,6 +236,9 @@ carousel-indicators {
     text-align: center;
     border-bottom: 2px solid aqua;
 }
+.proj_desc{
+    text-align: center;
+}
 .caurosel-inner img{
     height: auto;
 }
@@ -251,6 +247,7 @@ carousel-indicators {
     background-image:url("images/mean1.png");
     background-size: cover;
 }
+
 #section05 { background: url(https://www.nxworld.net/example/css-scroll-down-button/bg05.jpg) center center / cover no-repeat;}
 
 #section05 h1{
