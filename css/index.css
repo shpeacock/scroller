@@ -40,7 +40,7 @@ section h1 {
 .shit {
   position: absolute;
   bottom: 80px;
-  left: 51%;
+  left: 50%;
   z-index: 2;
   display: inline-block;
   -webkit-transform: translate(0, -50%);
@@ -123,7 +123,7 @@ section h1 {
 ul.ripple{
   position: absolute;
   top: 63%;
-  left: 52%;
+  left: 51%;
   z-index: 2;  
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -192,14 +192,14 @@ ul.ripple li{
     background: url(https://www.nxworld.net/example/css-scroll-down-button/bg03.jpg) center center / cover no-repeat;
     padding: 25px 25px 25px 25px;
     border-radius: 5px;
-    height: 125% ;
+    height: 120% ;
 }
+
 
 .item img{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-
 
 #portfolioh2{
   color: #fff;
@@ -213,17 +213,13 @@ ul.ripple li{
     left: 15%;
 }
 
-.firstchar {
-    
-}
-
 .proj-indicators{
     left: 36%;
 }
 
 #main-indicators{
-    left:32%;
-    bottom:-10%;
+    left:3%;
+    bottom:-1%;
 }
 
 
@@ -231,61 +227,120 @@ ul.ripple li{
     width: 600px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    background-color: ivory;
+    left: 12px;
+    text-align: center;
 }
 
 carousel-indicators {
-    left: 36%;
+    left: 46%;
 }
 
-.bigSec{
-    align-content: center;
-}
-#db img{
-    padding-left: 4rem;
+.caurosel-inner img{
+    height: auto;
 }
 
-#languages{
-    padding-top: 2rem;
-    padding-left: 9rem;
-}
-#frameworks img{
-    padding-left: 3rem;
-}
-#section04 { background: url(https://www.nxworld.net/example/css-scroll-down-button/bg04.jpg) center center / cover no-repeat;}
-
-.proj_desc{
-    background-color: ivory;
-    left: 12px;
-}
 
 .proj_desc h3{
     text-align: center;
     border-bottom: 2px solid aqua;
 }
-.proj_desc{
+
+
+#section04 { 
+    background: url(https://www.nxworld.net/example/css-scroll-down-button/bg04.jpg) center center / cover no-repeat;
+
+
+
+
+
+}
+
+
+.page-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: 	#9FA9A1;
+    padding-bottom: 75px;
+}
+
+
+
+.thanks{
+    color: ivory;
     text-align: center;
 }
-.caurosel-inner img{
-    height: auto;
-}
 
-#mean1{
-    background-image:url("images/mean1.png");
-    background-size: cover;
-}
-
-#section05 { background: url(https://www.nxworld.net/example/css-scroll-down-button/bg05.jpg) center center / cover no-repeat;}
-
-#section05 h1{
-    top: 20%;
-    left: 50%;
-    color: grey;
+.thanks a{
+    z-index: -200;
 }
 
 
-#section05 a {
-    padding-top: 60px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #section05 a span {
   position: absolute;
   top: 30;
