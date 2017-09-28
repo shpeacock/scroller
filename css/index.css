@@ -217,8 +217,8 @@ ul.ripple li{
 }
 
 #main-indicators{
-    left:3%;
-    bottom:-1%;
+    left:34%;
+    bottom:-8%;
 }
 
 
@@ -258,6 +258,8 @@ carousel-indicators {
     background: #9FA9A1;
     padding-bottom: 75px;
     opacity: 0.6;
+    text-align: center;
+    font-weight: bolder;
 }
 
 .thanks{
@@ -269,6 +271,11 @@ carousel-indicators {
 .thanks a{
     z-index: 4;   
 }
+
+.thanks img{
+    opacity: 1.0;
+}
+
 
 #float1{   
    -webkit-animation-name: Floatingx;
@@ -376,7 +383,10 @@ carousel-indicators {
     display:none;
 }
 
-
+#target textarea {
+    width: 300px;
+    text-align: center;
+}
 
 
 

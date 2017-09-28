@@ -1,6 +1,6 @@
 $(document).ready(function(){
     rollLoad();
-
+    showEmail();
 })
 
 function rollLoad(){
@@ -32,6 +32,14 @@ $(function() {
         });
     });
 });
+
+
+function showEmail(){
+    $("#gmail").click(function(){
+    $("#target").show();
+});
+}
+
 
 
 
