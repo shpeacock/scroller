@@ -25,8 +25,8 @@ section h1 {
   position: absolute;
   top: 50%;
   left: 53%;
-  z-index: 2;
-  -webkit-transform: translate(-50%, -50%);
+/*  z-index: 2;*/
+/*  -webkit-transform: translate(-50%, -50%);*/
   transform: translate(-50%, -50%);
   color: #fff;
   font : normal 300 64px/1 'Josefin Sans', sans-serif;
@@ -273,7 +273,7 @@ carousel-indicators {
 }
 
 .thanks a{
-    z-index: -200;
+    z-index: 4;   
 }
 
 
