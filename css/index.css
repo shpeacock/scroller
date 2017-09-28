@@ -255,15 +255,15 @@ carousel-indicators {
     position: absolute;
     bottom: 0;
     width: 100%;
-    background: 	#9FA9A1;
+    background: #9FA9A1;
     padding-bottom: 75px;
+    opacity: 0.6;
 }
 
-
-
 .thanks{
-    color: ivory;
+    color: black;
     text-align: center;
+    font-weight: bolder;
 }
 
 .thanks a{
