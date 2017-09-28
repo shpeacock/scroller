@@ -372,7 +372,9 @@ carousel-indicators {
     to {-moz-transform: translate(0, -0px);}    
 }
 
-
+#target{
+    display:none;
+}
 
 
 
