@@ -24,15 +24,41 @@ section h1 {
   position: absolute;
   top: 50%;
   left: 53%;
-/*  z-index: 2;*/
-/*  -webkit-transform: translate(-50%, -50%);*/
+  z-index: 2;
+  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   color: #fff;
   font : normal 300 64px/1 'Josefin Sans', sans-serif;
   text-align: center;
   white-space: nowrap;
+
+@media only screen and (max-width: 480px) {
+
+  .form-header-group.hasImage>.header-text{
+
+    display: block !important;
+
+  }
+
+  .form-header-group.hasImage>.header-logo{
+
+    display: block !important;
+    margin-bottom: 3px;
+
+  }
+
+}
 }
 
+@media all and (max-width:800px) //800px for tablets and phones.
+{
+    #one, #two
+    {
+        display: block; 
+        float: none; 
+        width: 100%;
+    }
+}
 .shit {
   padding-top: 0px;
 }
@@ -138,7 +164,6 @@ ul.ripple li{
   color:black;
   text-shadow:1px 1px 3px rgba(0,0,0,.25);
 }
-
 .shp{
   font-weight: bold;
   align-items: flex-start;
@@ -153,7 +178,7 @@ ul.ripple li{
     background: #A1876C;
     font-size: 70px;
     line-height: 60px;
-    padding-top: 4px;
+/*    padding-top: 4px;*/
     padding-right: 8px;
     padding-left: 3px;
     float: left;
@@ -163,9 +188,26 @@ ul.ripple li{
     padding-top: 16rem;
 }
 #abt{
-    padding-top: 10rem;
+    padding-top: 5rem;
     padding-right: 5rem;
     padding-left: 5rem;
+    padding-bottom: 5rem;
+}
+@media (max-width: 978px) {
+    .container {
+      padding:0;
+      margin:0;
+    }
+
+    body {
+      padding:0;
+    }
+
+    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom:0;
+    }
 }
 #abtcontent{
     background-color:ivory;
@@ -175,15 +217,16 @@ ul.ripple li{
     border-radius: 10px;
     filter: alpha(opacity=50);
     opacity: .75;
+    height: 20%;
+    text-align: center;
 }
 #abtcontent p {
     font-weight:500;   
-    padding-left: 24rem;
     font: bold 300 24px/1 'Josefin Sans', sans-serif
 }
 #abth2{
     text-align: center;
-    font-family: sans-serif; 
+    font-family: 'Josefin Sans',sans-serif; 
     border-bottom: 1px solid grey;
     border-radius: 2px;
 }
@@ -191,7 +234,7 @@ ul.ripple li{
     background: url(https://www.nxworld.net/example/css-scroll-down-button/bg03.jpg) center center / cover no-repeat;
     padding: 25px 25px 25px 25px;
     border-radius: 5px;
-    height: 120% ;
+    height: 125% ;
 }
 
 
@@ -218,38 +261,53 @@ ul.ripple li{
 
 #main-indicators{
     left:34%;
-    bottom:-8%;
+    bottom:99%;
 }
 
 
 .proj_desc{
-    width: 600px;
+    width: 100%;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     background-color: ivory;
-    left: 12px;
     text-align: center;
+    left: 5%;
+/*    font-family: 'Josefin Sans', sans-serif;*/
 }
 
 carousel-indicators {
     left: 46%;
 }
 
-.caurosel-inner img{
-    height: auto;
+#meandiv{
+    background-image: url("../images/Mean1.png");
+    width:100%;
+    height:50%;
+    padding-top: 24.25%;
+    background-size:contain;
+    background-repeat:no-repeat;
+    left: 5%;
 }
 
 
 .proj_desc h3{
     text-align: center;
     border-bottom: 2px solid aqua;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 
 #section04 { 
     background: url(https://www.nxworld.net/example/css-scroll-down-button/bg04.jpg) center center / cover no-repeat;
 }
-
+#contactme{
+  margin:0;
+  color: #fff;
+  font : normal 300 54px/1 'Josefin Sans', sans-serif;
+  text-align: center;
+  white-space: nowrap;
+  padding-top: 8rem;
+}
 
 .page-footer {
     position: absolute;
@@ -257,7 +315,7 @@ carousel-indicators {
     width: 100%;
     background: #9FA9A1;
     padding-bottom: 75px;
-    opacity: 0.6;
+    opacity: 0.55;
     text-align: center;
     font-weight: bolder;
     align-content: center;
@@ -397,12 +455,6 @@ textarea {
     height=4rem;
     width=12rem;
 }
-
-
-
-
-
-
 
 
 
