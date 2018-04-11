@@ -56,8 +56,8 @@ section h1 {
 {
     #one, #two
     {
-        display: block; 
-        float: none; 
+        display: block;
+        float: none;
         width: 100%;
     }
 }
@@ -149,14 +149,18 @@ section h1 {
 
 .demo h1{
     max-width: 100%;
-    
+
+}
+
+li .web {
+  text-decoration-color: #54e537;
 }
 #section01 { background: url(https://www.nxworld.net/example/css-scroll-down-button/bg01.jpg) center center / cover no-repeat;}
 ul.ripple{
   position: absolute;
   top: 66%;
   left: 51%;
-  z-index: 2;  
+  z-index: 2;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   color: #fff;
@@ -189,7 +193,7 @@ ul.ripple li{
     padding-right: 8px;
     padding-left: 3px;
     float: left;
-    
+
 }
 #profile{
     padding-top: 16rem;
@@ -228,21 +232,21 @@ ul.ripple li{
     text-align: center;
 }
 #abtcontent p {
-    font-weight:500;   
+    font-weight:500;
     font: bold 300 24px/1 'Josefin Sans', sans-serif
 }
 #abth2{
     text-align: center;
-    font-family: 'Josefin Sans',sans-serif; 
+    font-family: 'Josefin Sans',sans-serif;
     border-bottom: 1px solid grey;
     border-radius: 2px;
 }
-#section03 { 
+#section03 {
     background: url(https://www.nxworld.net/example/css-scroll-down-button/bg03.jpg) center center / cover no-repeat;
     padding: 25px 25px 25px 25px;
     border-radius: 5px;
     height: 125% ;
-    text-align: center; 
+    text-align: center;
 }
 
 
@@ -308,6 +312,17 @@ carousel-indicators {
     border-top-right-radius: 10px;
 }
 
+#mateodiv{
+  background-image: url("../images/mateo.png");
+  height:50%;
+  padding-top: 24.25%;
+  background-size:cover;
+  background-repeat:no-repeat;
+  left: 5%;
+  border-top-left-radius:10px;
+  border-top-right-radius: 10px;
+}
+
 #rubydiv{
         background-image: url("../images/ruby1.png");
 /*    width:100%;*/
@@ -328,7 +343,7 @@ carousel-indicators {
 }
 
 
-#section04 { 
+#section04 {
     background: url(https://www.nxworld.net/example/css-scroll-down-button/bg04.jpg) center center / cover no-repeat;
 }
 #contactme{
@@ -359,7 +374,7 @@ carousel-indicators {
 }
 
 .thanks a{
-    z-index: 4;   
+    z-index: 4;
 }
 
 .thanks img{
@@ -367,7 +382,7 @@ carousel-indicators {
 }
 
 
-#float1{   
+#float1{
    -webkit-animation-name: Floatingx;
     -webkit-animation-duration: 6s;
     -webkit-animation-iteration-count: infinite;
@@ -382,17 +397,17 @@ carousel-indicators {
 @-webkit-keyframes Floatingx{
     from {-webkit-transform:translate(0, 0px);}
     65% {-webkit-transform:translate(0, 15px);}
-    to {-webkit-transform: translate(0, -0px);    }    
+    to {-webkit-transform: translate(0, -0px);    }
 }
-    
+
 @-moz-keyframes Floating{
     from {-moz-transform:translate(0, 0px);}
     65% {-moz-transform:translate(0, 30px);}
-    to {-moz-transform: translate(0, -0px);}    
+    to {-moz-transform: translate(0, -0px);}
 }
 
 
-#float2{   
+#float2{
    -webkit-animation-name: Floatingx;
     -webkit-animation-duration: 3s;
     -webkit-animation-iteration-count: infinite;
@@ -407,16 +422,16 @@ carousel-indicators {
 @-webkit-keyframes Floatingx{
     from {-webkit-transform:translate(0, 0px);}
     65% {-webkit-transform:translate(0, 300px);}
-    to {-webkit-transform: translate(0, -0px);    }    
+    to {-webkit-transform: translate(0, -0px);    }
 }
-    
+
 @-moz-keyframes Floating{
     from {-moz-transform:translate(0, 0px);}
     65% {-moz-transform:translate(0, 150px);}
-    to {-moz-transform: translate(0, -0px);}    
+    to {-moz-transform: translate(0, -0px);}
 }
 
-#float3{   
+#float3{
    -webkit-animation-name: Floatingx;
     -webkit-animation-duration: 15s;
     -webkit-animation-iteration-count: infinite;
@@ -431,17 +446,17 @@ carousel-indicators {
 @-webkit-keyframes Floatingx{
     from {-webkit-transform:translate(0, 0px);}
     65% {-webkit-transform:translate(0, 15px);}
-    to {-webkit-transform: translate(0, -0px);    }    
+    to {-webkit-transform: translate(0, -0px);    }
 }
-    
+
 @-moz-keyframes Floating{
     from {-moz-transform:translate(0, 0px);}
     65% {-moz-transform:translate(0, 30px);}
-    to {-moz-transform: translate(0, -0px);}    
+    to {-moz-transform: translate(0, -0px);}
 }
 
 
-.scaling{   
+.scaling{
    -webkit-animation-name: Floatingx;
     -webkit-animation-duration: 6s;
     -webkit-animation-iteration-count: infinite;
@@ -456,13 +471,13 @@ carousel-indicators {
 @-webkit-keyframes Floatingx{
     from {-webkit-transform:translate(0, 0px);}
     65% {-webkit-transform:translate(0, 15px);}
-    to {-webkit-transform: translate(0, -0px);    }    
+    to {-webkit-transform: translate(0, -0px);    }
 }
-    
+
 @-moz-keyframes Floating{
     from {-moz-transform:translate(0, 0px);}
     65% {-moz-transform:translate(0, 30px);}
-    to {-moz-transform: translate(0, -0px);}    
+    to {-moz-transform: translate(0, -0px);}
 }
 
 .target{
