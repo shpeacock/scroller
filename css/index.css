@@ -155,7 +155,7 @@ section h1 {
 li .web {
   text-decoration-color: #54e537;
 }
-#section01 { background: url(https://www.nxworld.net/example/css-scroll-down-button/bg01.jpg) center center / cover no-repeat;}
+#section01 { background: url(../images/stars.gif) center center / cover no-repeat;}
 ul.ripple{
   position: absolute;
   top: 66%;
@@ -163,7 +163,7 @@ ul.ripple{
   z-index: 2;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  color: #fff;
+  color: white;
   font : normal 300 34px/1 'Josefin Sans', sans-serif;
   text-align: center;
 /*  white-space: nowrap;*/
@@ -172,7 +172,7 @@ ul.ripple li{
   display: inline-block;
   list-style:none;
   padding:0 1px;
-  color:black;
+  color:white;
   text-shadow:1px 1px 3px rgba(0,0,0,.25);
 }
 .shp{
@@ -181,7 +181,7 @@ ul.ripple li{
 }
 
 
-#section02 { background: url(https://www.nxworld.net/example/css-scroll-down-button/bg02.jpg) center center / cover no-repeat;}
+#section02 { background: url(../images/lake.jpeg) center center / cover no-repeat;}
 
 .firstchar {
     color: #A2471C;
@@ -242,7 +242,7 @@ ul.ripple li{
     border-radius: 2px;
 }
 #section03 {
-    background: url(https://www.nxworld.net/example/css-scroll-down-button/bg03.jpg) center center / cover no-repeat;
+    background: url(../images/server.jpeg) center center / cover no-repeat;
     padding: 25px 25px 25px 25px;
     border-radius: 5px;
     height: 125% ;
@@ -322,7 +322,16 @@ carousel-indicators {
   border-top-left-radius:10px;
   border-top-right-radius: 10px;
 }
-
+#tfpdiv{
+  background-image: url("../images/tfp.png");
+  height:50%;
+  padding-top: 24.25%;
+  background-size:cover;
+  background-repeat:no-repeat;
+  left: 5%;
+  border-top-left-radius:10px;
+  border-top-right-radius: 10px;
+}
 #rubydiv{
         background-image: url("../images/ruby1.png");
 /*    width:100%;*/
@@ -344,7 +353,7 @@ carousel-indicators {
 
 
 #section04 {
-    background: url(https://www.nxworld.net/example/css-scroll-down-button/bg04.jpg) center center / cover no-repeat;
+    background: url(../images/contact.jpeg) center center / cover no-repeat;
 }
 #contactme{
   margin:0;
